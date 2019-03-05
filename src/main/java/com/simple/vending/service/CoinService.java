@@ -120,13 +120,7 @@ public class CoinService {
 	public BigInteger sumAllCreditCoins() {
 		return sumAllCoins(this.coinDAO.getCreditCoinList());
 	}
-	/**
-	 * Sum all the price of the coins in the OwnedList.
-	 * @return All the owned in Cents.
-	 */
-	public BigInteger sumAllOwnedCoins() {
-		return sumAllCoins(this.coinDAO.getOwnedCoins());
-	}
+	
 	/**
 	 * Given a coin list, this command will Sum all the prices.
 	 * @param coinList
